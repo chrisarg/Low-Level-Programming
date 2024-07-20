@@ -1,8 +1,8 @@
 ; Path: hello.asm
 ; Assemble/link/run with:
 ; nasm -f elf64 hello.asm
-; ld -o hello hello.o
-; ./hello ; echo " Wrote $? bytes "
+; ld -o hello.exe hello.o
+; ./hello.exe ; echo " Wrote $? bytes "
 
 global _start
 section .data
