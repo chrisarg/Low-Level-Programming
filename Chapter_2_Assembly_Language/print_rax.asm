@@ -38,6 +38,7 @@ _start:
     push rcx
     syscall
 
+    ; no need to restore rax and rcx
     mov rsi,newline       ; print a newline
     syscall
     ; restore rax and rcx
